@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Supprimer mon compte – Boox</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #FDF8F0; color: #1a1a1a; line-height: 1.7; }
+    .container { max-width: 720px; margin: 0 auto; padding: 48px 24px; }
+    .logo { display: flex; align-items: center; gap: 12px; margin-bottom: 40px; }
+    .logo-icon { width: 48px; height: 48px; border-radius: 12px; background: #2D4A3E; display: flex; align-items: center; justify-content: center; }
+    .logo-icon img { width: 32px; height: 32px; object-fit: contain; filter: brightness(0) invert(1); }
+    .logo-name { font-size: 24px; font-weight: 700; color: #2D4A3E; }
+    h1 { font-size: 28px; font-weight: 700; color: #2D4A3E; margin-bottom: 16px; }
+    .subtitle { font-size: 16px; color: #555; margin-bottom: 40px; }
+    .card { background: #fff; border-radius: 16px; padding: 28px; margin-bottom: 24px; border: 1px solid #e8e0d5; }
+    h2 { font-size: 17px; font-weight: 700; color: #2D4A3E; margin-bottom: 16px; }
+    .step { display: flex; gap: 16px; margin-bottom: 16px; align-items: flex-start; }
+    .step-number { width: 28px; height: 28px; border-radius: 50%; background: #2D4A3E; color: #fff; font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px; }
+    .step-text { font-size: 15px; color: #333; }
+    .step-text strong { color: #1a1a1a; }
+    .warning { background: #FEF3C7; border-left: 4px solid #F59E0B; border-radius: 8px; padding: 16px 20px; margin-bottom: 24px; font-size: 14px; color: #78350F; }
+    .data-table { width: 100%; border-collapse: collapse; font-size: 14px; margin-top: 12px; }
+    .data-table th { text-align: left; padding: 10px 12px; background: #f5f0e8; color: #2D4A3E; font-weight: 600; border-radius: 6px 6px 0 0; }
+    .data-table td { padding: 10px 12px; border-bottom: 1px solid #f0ebe0; color: #333; }
+    .data-table tr:last-child td { border-bottom: none; }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+    .badge-deleted { background: #DCFCE7; color: #166534; }
+    .badge-kept { background: #FEE2E2; color: #991B1B; }
+    .contact-box { background: #2D4A3E; color: #fff; border-radius: 16px; padding: 28px; text-align: center; }
+    .contact-box p { color: rgba(255,255,255,0.8); margin-bottom: 16px; font-size: 15px; }
+    .contact-box a { color: #fff; font-weight: 600; font-size: 16px; text-decoration: none; }
+    .footer { margin-top: 48px; font-size: 13px; color: #888; text-align: center; }
+    .footer a { color: #2D4A3E; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <div class="logo-icon">
+        <img src="https://res.cloudinary.com/dw2w8hnte/image/upload/v1781024791/boox_icon_ovvzvf.png" alt="Boox" />
+      </div>
+      <span class="logo-name">Boox</span>
+    </div>
+
+    <h1>Supprimer mon compte</h1>
+    <p class="subtitle">Vous pouvez supprimer votre compte Boox et toutes vos données directement depuis l'application, ou en nous contactant.</p>
+
+    <div class="warning">
+      ⚠️ La suppression de votre compte est <strong>irréversible</strong>. Toutes vos données seront définitivement effacées sous 30 jours.
+    </div>
+
+    <div class="card">
+      <h2>Supprimer depuis l'application</h2>
+      <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-text">Ouvrez l'application <strong>Boox</strong></div>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-text">Allez dans l'onglet <strong>Profil</strong> (en bas à droite)</div>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-text">Appuyez sur <strong>Paramètres</strong></div>
+      </div>
+      <div class="step">
+        <div class="step-number">4</div>
+        <div class="step-text">Faites défiler jusqu'en bas et appuyez sur <strong>⚠️ Supprimer le compte</strong></div>
+      </div>
+      <div class="step">
+        <div class="step-number">5</div>
+        <div class="step-text">Confirmez votre identité avec votre mot de passe et validez la suppression</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Données supprimées et conservées</h2>
+      <table class="data-table">
+        <tr>
+          <th>Type de données</th>
+          <th>Action</th>
+        </tr>
+        <tr>
+          <td>Compte et informations personnelles (email, nom d'utilisateur)</td>
+          <td><span class="badge badge-deleted">Supprimé</span></td>
+        </tr>
+        <tr>
+          <td>Livres ajoutés dans les boîtes</td>
+          <td><span class="badge badge-deleted">Supprimé</span></td>
+        </tr>
+        <tr>
+          <td>Photos de profil et de boîtes</td>
+          <td><span class="badge badge-deleted">Supprimé</span></td>
+        </tr>
+        <tr>
+          <td>Statistiques et points</td>
+          <td><span class="badge badge-deleted">Supprimé</span></td>
+        </tr>
+        <tr>
+          <td>Boîtes à livres créées (contenu communautaire)</td>
+          <td><span class="badge badge-kept">Conservé anonymement</span></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="contact-box">
+      <p>Vous n'avez plus accès à l'application ? Contactez-nous directement pour demander la suppression de votre compte.</p>
+      <a href="mailto:mguillaumin97@gmail.com">mguillaumin97@gmail.com</a>
+    </div>
+
+    <div class="footer">
+      &copy; 2024 Boox · <a href="privacy-policy.html">Politique de confidentialité</a>
+    </div>
+  </div>
+</body>
+</html>
