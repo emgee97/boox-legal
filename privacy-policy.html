@@ -6,91 +6,240 @@
   <title>Politique de confidentialité – Boox</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #FDF8F0; color: #1a1a1a; line-height: 1.7; }
-    .container { max-width: 720px; margin: 0 auto; padding: 48px 24px; }
-    .logo { display: flex; align-items: center; gap: 12px; margin-bottom: 40px; }
-    .logo-icon { width: 48px; height: 48px; border-radius: 12px; background: #2D4A3E; display: flex; align-items: center; justify-content: center; }
-    .logo-icon img { width: 32px; height: 32px; object-fit: contain; filter: brightness(0) invert(1); }
-    .logo-name { font-size: 24px; font-weight: 700; color: #2D4A3E; }
-    h1 { font-size: 28px; font-weight: 700; color: #2D4A3E; margin-bottom: 8px; }
-    .updated { font-size: 13px; color: #888; margin-bottom: 40px; }
-    h2 { font-size: 17px; font-weight: 700; color: #2D4A3E; margin-top: 36px; margin-bottom: 12px; }
-    p { font-size: 15px; margin-bottom: 12px; color: #333; }
-    ul { padding-left: 20px; margin-bottom: 12px; }
-    li { font-size: 15px; color: #333; margin-bottom: 6px; }
-    .footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid #e0d9cf; font-size: 13px; color: #888; text-align: center; }
-    a { color: #2D4A3E; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #FDF8F0; color: #1a1a1a; line-height: 1.75; font-size: 15px; }
+    .container { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+    .logo { display: flex; align-items: center; gap: 14px; margin-bottom: 44px; }
+    .logo img.icon { width: 52px; height: 52px; border-radius: 14px; }
+    .logo-name { font-size: 26px; font-weight: 800; color: #2D4A3E; letter-spacing: -0.5px; }
+    h1 { font-size: 30px; font-weight: 800; color: #2D4A3E; margin-bottom: 6px; letter-spacing: -0.5px; }
+    .meta { font-size: 13px; color: #888; margin-bottom: 44px; }
+    .toc { background: #fff; border: 1px solid #e8e0d5; border-radius: 14px; padding: 24px 28px; margin-bottom: 44px; }
+    .toc h2 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #2D4A3E; margin-bottom: 14px; }
+    .toc ol { padding-left: 20px; }
+    .toc li { margin-bottom: 6px; }
+    .toc a { color: #2D4A3E; text-decoration: none; font-size: 14px; }
+    .toc a:hover { text-decoration: underline; }
+    h2 { font-size: 19px; font-weight: 700; color: #2D4A3E; margin-top: 44px; margin-bottom: 14px; padding-top: 8px; border-top: 2px solid #e8e0d5; }
+    h3 { font-size: 15px; font-weight: 700; color: #1a1a1a; margin-top: 20px; margin-bottom: 8px; }
+    p { margin-bottom: 14px; color: #333; }
+    ul, ol { padding-left: 22px; margin-bottom: 14px; }
+    li { margin-bottom: 6px; color: #333; }
+    .highlight { background: #F0F7F4; border-left: 4px solid #2D4A3E; border-radius: 0 8px 8px 0; padding: 16px 20px; margin: 20px 0; font-size: 14px; color: #2D4A3E; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: 14px; }
+    th { background: #2D4A3E; color: #fff; padding: 10px 14px; text-align: left; }
+    td { padding: 10px 14px; border-bottom: 1px solid #f0ebe0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: #faf6ef; }
+    .footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid #e8e0d5; font-size: 13px; color: #888; text-align: center; }
+    .footer a { color: #2D4A3E; text-decoration: none; }
+    strong { color: #1a1a1a; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="logo">
-      <div class="logo-icon">
-        <img src="https://res.cloudinary.com/dw2w8hnte/image/upload/v1781024791/boox_icon_ovvzvf.png" alt="Boox" />
-      </div>
-      <span class="logo-name">Boox</span>
-    </div>
+<div class="container">
 
-    <h1>Politique de confidentialité</h1>
-    <p class="updated">Dernière mise à jour : 18 décembre 2024</p>
-
-    <h2>1. Introduction</h2>
-    <p>Bienvenue sur Boox. Nous respectons votre vie privée et nous nous engageons à protéger vos données personnelles. Cette politique de confidentialité vous informe sur la manière dont nous collectons, utilisons et protégeons vos informations lorsque vous utilisez notre application.</p>
-
-    <h2>2. Données collectées</h2>
-    <p>Nous collectons les types de données suivants :</p>
-    <ul>
-      <li>Informations de compte : adresse e-mail, nom d'utilisateur, mot de passe (chiffré)</li>
-      <li>Données de localisation : position GPS pour afficher les boîtes à livres à proximité</li>
-      <li>Contenu généré : livres ajoutés, boîtes créées, photos uploadées</li>
-      <li>Données d'utilisation : statistiques (livres ajoutés, boîtes visitées, points gagnés)</li>
-    </ul>
-
-    <h2>3. Utilisation des données</h2>
-    <p>Vos données sont utilisées pour :</p>
-    <ul>
-      <li>Fournir et améliorer nos services</li>
-      <li>Afficher les boîtes à livres proches de votre position</li>
-      <li>Gérer votre compte et vos statistiques</li>
-      <li>Modérer le contenu et assurer la sécurité de la communauté</li>
-      <li>Envoyer des notifications push pour les alertes de livres (si autorisées)</li>
-      <li>Communiquer avec vous concernant l'application</li>
-    </ul>
-
-    <h2>4. Partage des données</h2>
-    <p>Nous ne vendons jamais vos données personnelles. Vos données peuvent être partagées avec :</p>
-    <ul>
-      <li><strong>Supabase</strong> : notre fournisseur d'hébergement et de base de données</li>
-      <li><strong>Google</strong> : pour l'authentification (Google Sign-In) et l'affichage de la carte (Google Maps)</li>
-      <li><strong>Expo / Expensify Push Service</strong> : pour l'envoi de notifications push</li>
-      <li>Les autres utilisateurs : uniquement les informations publiques (nom d'utilisateur, livres/boîtes ajoutés)</li>
-    </ul>
-
-    <h2>5. Données de localisation</h2>
-    <p>Nous utilisons votre position GPS uniquement pour afficher les boîtes à livres à proximité sur la carte. Votre localisation n'est jamais enregistrée de manière permanente ni partagée avec d'autres utilisateurs.</p>
-
-    <h2>6. Sécurité des données</h2>
-    <p>Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles pour protéger vos données contre tout accès non autorisé. Les mots de passe sont chiffrés et stockés de manière sécurisée.</p>
-
-    <h2>7. Vos droits (RGPD)</h2>
-    <ul>
-      <li>Droit d'accès à vos données personnelles</li>
-      <li>Droit de rectification de vos données</li>
-      <li>Droit à l'effacement de votre compte et de vos données</li>
-      <li>Droit à la portabilité de vos données</li>
-      <li>Droit d'opposition au traitement de vos données</li>
-    </ul>
-    <p>Pour exercer ces droits, utilisez le formulaire de support dans l'application ou contactez-nous à <a href="mailto:mguillaumin97@gmail.com">mguillaumin97@gmail.com</a>.</p>
-
-    <h2>8. Conservation des données</h2>
-    <p>Vos données sont conservées tant que votre compte est actif. En cas de suppression de compte, vos données personnelles seront effacées sous 30 jours.</p>
-
-    <h2>9. Contact</h2>
-    <p>Pour toute question relative à cette politique, contactez-nous à <a href="mailto:mguillaumin97@gmail.com">mguillaumin97@gmail.com</a> ou via le formulaire de support dans l'application (Profil → Aide &amp; Support).</p>
-
-    <div class="footer">
-      &copy; 2024 Boox · <a href="delete-account.html">Supprimer mon compte</a>
-    </div>
+  <div class="logo">
+    <img class="icon" src="icon.png" alt="Boox" />
+    <span class="logo-name">Boox</span>
   </div>
+
+  <h1>Politique de confidentialité</h1>
+  <p class="meta">Version 1.1 — Entrée en vigueur : 18 décembre 2024 — Dernière mise à jour : 12 juin 2025</p>
+
+  <div class="highlight">
+    La présente politique de confidentialité (ci-après « Politique ») est établie conformément au Règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 relatif à la protection des données à caractère personnel (ci-après « RGPD ») ainsi qu'à la loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés (loi « Informatique et Libertés »), telle que modifiée.
+  </div>
+
+  <div class="toc">
+    <h2>Sommaire</h2>
+    <ol>
+      <li><a href="#responsable">Identité du responsable de traitement</a></li>
+      <li><a href="#donnees">Données collectées</a></li>
+      <li><a href="#bases">Bases légales des traitements</a></li>
+      <li><a href="#finalites">Finalités des traitements</a></li>
+      <li><a href="#partage">Partage et sous-traitants</a></li>
+      <li><a href="#transferts">Transferts hors Union européenne</a></li>
+      <li><a href="#conservation">Durées de conservation</a></li>
+      <li><a href="#mineurs">Mineurs</a></li>
+      <li><a href="#droits">Vos droits</a></li>
+      <li><a href="#securite">Sécurité</a></li>
+      <li><a href="#contenu">Contenu généré par les utilisateurs</a></li>
+      <li><a href="#responsabilite">Limitation de responsabilité</a></li>
+      <li><a href="#modifications">Modifications de la Politique</a></li>
+      <li><a href="#contact">Contact et réclamations</a></li>
+    </ol>
+  </div>
+
+  <!-- 1 -->
+  <h2 id="responsable">1. Identité du responsable de traitement</h2>
+  <p>Le responsable du traitement des données à caractère personnel collectées via l'application Boox (ci-après « l'Application ») est :</p>
+  <ul>
+    <li><strong>Nom :</strong> Maxime Guillaumin</li>
+    <li><strong>Qualité :</strong> Développeur et éditeur de l'Application Boox</li>
+    <li><strong>Contact :</strong> <a href="mailto:mguillaumin97@gmail.com">mguillaumin97@gmail.com</a></li>
+  </ul>
+  <p>Ci-après désigné « nous », « notre » ou « l'Éditeur ».</p>
+
+  <!-- 2 -->
+  <h2 id="donnees">2. Données collectées</h2>
+
+  <h3>2.1 Données fournies directement par l'utilisateur</h3>
+  <ul>
+    <li>Adresse e-mail</li>
+    <li>Nom d'utilisateur choisi</li>
+    <li>Mot de passe (stocké exclusivement sous forme hachée et chiffrée — jamais en clair)</li>
+    <li>Photo de profil (si fournie)</li>
+    <li>Contenu publié : livres ajoutés, boîtes à livres créées, photos de boîtes</li>
+    <li>Alertes de recherche sauvegardées (titre ou auteur d'un livre recherché)</li>
+  </ul>
+
+  <h3>2.2 Données collectées automatiquement</h3>
+  <ul>
+    <li><strong>Données de localisation :</strong> position GPS en temps réel, uniquement lors de l'utilisation active de la carte, avec votre autorisation explicite. Non stockée de manière permanente ni partagée.</li>
+    <li><strong>Identifiant de notification push :</strong> token Expo Push pour l'envoi de notifications, si l'autorisation est accordée.</li>
+    <li><strong>Données d'utilisation :</strong> statistiques agrégées (nombre de livres ajoutés, boîtes visitées, points de gamification).</li>
+    <li><strong>Données de connexion sociale :</strong> lors d'une connexion via Google ou Apple, nous récupérons uniquement l'adresse e-mail et le nom affichés publiquement par ces fournisseurs. Nous ne stockons pas les tokens d'accès tiers.</li>
+  </ul>
+
+  <h3>2.3 Données que nous ne collectons pas</h3>
+  <p>Nous ne collectons pas de données bancaires, de numéros de carte de crédit, de données de santé, de données biométriques, ni aucune donnée sensible au sens de l'article 9 du RGPD.</p>
+
+  <!-- 3 -->
+  <h2 id="bases">3. Bases légales des traitements</h2>
+  <table>
+    <tr><th>Traitement</th><th>Base légale (Art. 6 RGPD)</th></tr>
+    <tr><td>Création et gestion de compte</td><td>Exécution du contrat (Art. 6.1.b)</td></tr>
+    <tr><td>Affichage des boîtes à livres à proximité</td><td>Exécution du contrat (Art. 6.1.b)</td></tr>
+    <tr><td>Notifications push d'alertes livres</td><td>Consentement (Art. 6.1.a) — révocable à tout moment</td></tr>
+    <tr><td>Authentification via Google / Apple</td><td>Exécution du contrat (Art. 6.1.b)</td></tr>
+    <tr><td>Statistiques d'utilisation agrégées</td><td>Intérêt légitime de l'Éditeur (Art. 6.1.f)</td></tr>
+    <tr><td>Conservation des données après suppression de compte</td><td>Obligation légale (Art. 6.1.c) — 30 jours maximum</td></tr>
+  </table>
+
+  <!-- 4 -->
+  <h2 id="finalites">4. Finalités des traitements</h2>
+  <p>Les données collectées sont utilisées aux fins suivantes :</p>
+  <ul>
+    <li>Fournir, maintenir et améliorer les fonctionnalités de l'Application ;</li>
+    <li>Authentifier et gérer votre compte utilisateur ;</li>
+    <li>Afficher les boîtes à livres situées à proximité de votre position ;</li>
+    <li>Vous envoyer des notifications push relatives à vos alertes de recherche (uniquement si vous avez accordé l'autorisation) ;</li>
+    <li>Permettre les interactions communautaires (ajout de livres, création de boîtes, classement) ;</li>
+    <li>Garantir la sécurité et lutter contre les fraudes, abus et contenus illicites ;</li>
+    <li>Répondre à vos demandes de support ;</li>
+    <li>Respecter nos obligations légales.</li>
+  </ul>
+  <p><strong>Nous n'utilisons jamais vos données à des fins de marketing de tiers, de profilage commercial ou de vente de données.</strong></p>
+
+  <!-- 5 -->
+  <h2 id="partage">5. Partage et sous-traitants</h2>
+  <p>Nous faisons appel aux sous-traitants et partenaires techniques suivants, dans le strict cadre des finalités décrites ci-dessus :</p>
+  <table>
+    <tr><th>Sous-traitant</th><th>Rôle</th><th>Localisation</th><th>Politique de confidentialité</th></tr>
+    <tr><td><strong>Supabase Inc.</strong></td><td>Base de données, authentification, stockage fichiers</td><td>États-Unis (serveurs EU disponibles)</td><td><a href="https://supabase.com/privacy" target="_blank">supabase.com/privacy</a></td></tr>
+    <tr><td><strong>Google LLC</strong></td><td>Authentification (Google Sign-In), cartographie (Google Maps), publicité (AdMob)</td><td>États-Unis</td><td><a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></td></tr>
+    <tr><td><strong>Apple Inc.</strong></td><td>Authentification (Sign in with Apple)</td><td>États-Unis</td><td><a href="https://www.apple.com/legal/privacy/fr-ww/" target="_blank">apple.com/legal/privacy</a></td></tr>
+    <tr><td><strong>Expo / Expensify Inc.</strong></td><td>Service de notifications push</td><td>États-Unis</td><td><a href="https://expo.dev/privacy" target="_blank">expo.dev/privacy</a></td></tr>
+    <tr><td><strong>Cloudinary Inc.</strong></td><td>Hébergement et traitement des images</td><td>États-Unis</td><td><a href="https://cloudinary.com/privacy" target="_blank">cloudinary.com/privacy</a></td></tr>
+  </table>
+  <p>Nous ne vendons, ne louons et ne cédons jamais vos données personnelles à des tiers à des fins commerciales propres à ces tiers.</p>
+  <p>Certaines informations (nom d'utilisateur, livres ajoutés, boîtes créées) sont visibles par les autres utilisateurs de l'Application, conformément aux fonctionnalités communautaires du service.</p>
+
+  <!-- 6 -->
+  <h2 id="transferts">6. Transferts hors Union européenne</h2>
+  <p>Certains de nos sous-traitants étant établis aux États-Unis, vos données peuvent être transférées hors de l'Espace économique européen (EEE). Ces transferts sont encadrés par les garanties appropriées prévues par le RGPD, notamment :</p>
+  <ul>
+    <li>Les clauses contractuelles types (CCT) adoptées par la Commission européenne ;</li>
+    <li>Le cadre EU-US Data Privacy Framework pour les entreprises qui y adhèrent.</li>
+  </ul>
+  <p>Pour toute information sur les garanties applicables, vous pouvez nous contacter à l'adresse indiquée à l'article 14.</p>
+
+  <!-- 7 -->
+  <h2 id="conservation">7. Durées de conservation</h2>
+  <table>
+    <tr><th>Catégorie de données</th><th>Durée de conservation</th></tr>
+    <tr><td>Données de compte (email, nom d'utilisateur)</td><td>Durée de l'activité du compte + 30 jours après suppression</td></tr>
+    <tr><td>Contenu publié (livres, boîtes, photos)</td><td>Durée de l'activité du compte</td></tr>
+    <tr><td>Token de notification push</td><td>Jusqu'au retrait du consentement ou désinstallation</td></tr>
+    <tr><td>Données de localisation</td><td>Non conservées — traitées en temps réel uniquement</td></tr>
+    <tr><td>Alertes de recherche sauvegardées</td><td>Jusqu'à suppression par l'utilisateur ou du compte</td></tr>
+    <tr><td>Journaux d'erreurs et logs techniques</td><td>90 jours maximum</td></tr>
+  </table>
+  <p>À l'expiration des délais ci-dessus, les données sont supprimées ou anonymisées de manière irréversible.</p>
+
+  <!-- 8 -->
+  <h2 id="mineurs">8. Mineurs</h2>
+  <p>L'Application est destinée aux personnes âgées de <strong>13 ans et plus</strong>. Nous ne collectons pas sciemment de données personnelles concernant des enfants de moins de 13 ans. Si vous êtes parent ou tuteur et constatez qu'un enfant de moins de 13 ans nous a communiqué des données personnelles, veuillez nous contacter immédiatement afin que nous procédions à leur suppression.</p>
+  <p>Pour les utilisateurs résidant dans l'Union européenne, l'âge minimal de consentement au traitement des données est fixé à 16 ans conformément à l'article 8 du RGPD, sauf disposition nationale contraire applicable.</p>
+
+  <!-- 9 -->
+  <h2 id="droits">9. Vos droits</h2>
+  <p>Conformément au RGPD et à la loi Informatique et Libertés, vous disposez des droits suivants :</p>
+  <ul>
+    <li><strong>Droit d'accès (Art. 15 RGPD) :</strong> obtenir une copie de vos données personnelles ;</li>
+    <li><strong>Droit de rectification (Art. 16 RGPD) :</strong> corriger des données inexactes ou incomplètes ;</li>
+    <li><strong>Droit à l'effacement (Art. 17 RGPD) :</strong> demander la suppression de vos données dans les cas prévus par la réglementation ;</li>
+    <li><strong>Droit à la limitation du traitement (Art. 18 RGPD) ;</strong></li>
+    <li><strong>Droit à la portabilité (Art. 20 RGPD) :</strong> recevoir vos données dans un format structuré et lisible par machine ;</li>
+    <li><strong>Droit d'opposition (Art. 21 RGPD) :</strong> vous opposer au traitement fondé sur notre intérêt légitime ;</li>
+    <li><strong>Droit de retirer votre consentement</strong> à tout moment, sans affecter la licéité des traitements effectués avant ce retrait ;</li>
+    <li><strong>Droit de ne pas faire l'objet d'une décision automatisée</strong> (Art. 22 RGPD).</li>
+  </ul>
+  <p>Pour exercer ces droits, adressez votre demande à <a href="mailto:mguillaumin97@gmail.com">mguillaumin97@gmail.com</a>. Nous nous engageons à répondre dans un délai d'un (1) mois à compter de la réception de votre demande (délai pouvant être porté à trois mois pour les demandes complexes).</p>
+  <p>Vous pouvez également supprimer votre compte directement depuis l'Application (Profil → Paramètres → Supprimer le compte), ce qui entraîne la suppression de vos données personnelles sous 30 jours.</p>
+
+  <!-- 10 -->
+  <h2 id="securite">10. Sécurité</h2>
+  <p>Nous mettons en œuvre les mesures de sécurité techniques et organisationnelles appropriées pour protéger vos données contre toute destruction, perte, altération, divulgation ou accès non autorisé, notamment :</p>
+  <ul>
+    <li>Chiffrement des mots de passe via bcrypt ;</li>
+    <li>Communications chiffrées via HTTPS/TLS ;</li>
+    <li>Contrôles d'accès stricts aux bases de données (Row Level Security) ;</li>
+    <li>Tokens d'authentification à durée limitée.</li>
+  </ul>
+  <p>Néanmoins, aucun système de sécurité n'est infaillible. En cas de violation de données susceptible d'engendrer un risque pour vos droits et libertés, nous vous en informerons conformément à l'article 34 du RGPD et notifierons la CNIL dans les délais légaux impartis.</p>
+
+  <!-- 11 -->
+  <h2 id="contenu">11. Contenu généré par les utilisateurs</h2>
+  <p>L'Application permet aux utilisateurs de publier du contenu (livres, boîtes à livres, photos). Ce contenu est visible par les autres utilisateurs. Vous êtes seul responsable du contenu que vous publiez et garantissez qu'il ne viole aucun droit de tiers, aucune loi applicable et aucune des règles de l'Application.</p>
+  <p>L'Éditeur se réserve le droit de supprimer tout contenu manifestement illicite, sans préavis, et sans que cela n'engage sa responsabilité. La modération du contenu ne constitue pas une obligation de surveillance générale au sens de l'article 6.I.7 de la loi pour la Confiance dans l'Économie Numérique (LCEN).</p>
+
+  <!-- 12 -->
+  <h2 id="responsabilite">12. Limitation de responsabilité</h2>
+  <p>L'Application est fournie <strong>en l'état</strong> (<em>as is</em>), sans garantie d'aucune sorte, expresse ou implicite. Dans toute la mesure permise par la loi applicable, l'Éditeur ne saurait être tenu responsable :</p>
+  <ul>
+    <li>De toute indisponibilité, interruption ou dysfonctionnement de l'Application ;</li>
+    <li>De toute perte ou altération de données résultant d'un incident technique, d'un cas de force majeure, ou d'un comportement de tiers ;</li>
+    <li>Du contenu publié par les utilisateurs ;</li>
+    <li>De l'exactitude ou de la fiabilité des informations relatives aux boîtes à livres (emplacement, contenu), celles-ci étant renseignées par les utilisateurs sous leur seule responsabilité ;</li>
+    <li>Des dommages indirects, incidents, spéciaux ou consécutifs résultant de l'utilisation ou de l'impossibilité d'utiliser l'Application ;</li>
+    <li>Des pratiques en matière de données des services tiers intégrés (Google, Apple, Supabase, etc.).</li>
+  </ul>
+  <p>La responsabilité de l'Éditeur, si elle devait être reconnue par une juridiction compétente, serait en tout état de cause limitée au préjudice direct et prévisible.</p>
+
+  <!-- 13 -->
+  <h2 id="modifications">13. Modifications de la Politique</h2>
+  <p>Nous nous réservons le droit de modifier la présente Politique à tout moment, notamment pour nous conformer à l'évolution du cadre légal ou réglementaire, ou pour refléter des changements dans nos pratiques de traitement des données. En cas de modification substantielle, nous vous en informerons via l'Application (notification in-app ou e-mail). La date de mise à jour figurant en haut de ce document sera actualisée. Votre utilisation de l'Application après toute modification vaut acceptation de la Politique révisée.</p>
+
+  <!-- 14 -->
+  <h2 id="contact">14. Contact et réclamations</h2>
+  <p>Pour toute question, demande ou réclamation relative à la présente Politique ou au traitement de vos données personnelles, veuillez nous contacter :</p>
+  <ul>
+    <li><strong>E-mail :</strong> <a href="mailto:mguillaumin97@gmail.com">mguillaumin97@gmail.com</a></li>
+    <li><strong>Via l'Application :</strong> Profil → Aide &amp; Support → Nous contacter</li>
+  </ul>
+  <p>Si vous estimez que vos droits n'ont pas été respectés après nous avoir contactés, vous disposez du droit d'introduire une réclamation auprès de la <strong>Commission Nationale de l'Informatique et des Libertés (CNIL)</strong> :</p>
+  <ul>
+    <li>Site web : <a href="https://www.cnil.fr" target="_blank">www.cnil.fr</a></li>
+    <li>Adresse : 3 Place de Fontenoy – TSA 80715 – 75334 Paris Cedex 07</li>
+  </ul>
+  <p>Droit applicable : la présente Politique est soumise au droit français. En cas de litige, les tribunaux français seront seuls compétents.</p>
+
+  <div class="footer">
+    &copy; 2024–2025 Boox — Maxime Guillaumin ·
+    <a href="delete-account.html">Suppression de compte</a>
+  </div>
+
+</div>
 </body>
 </html>
